@@ -6,7 +6,7 @@ using NumberExtension;
 
 namespace GenericDemo.ConsoleClient
 {
-    public class PredicateDigitAdapter : IPredicate
+    public class PredicateDigitAdapter : IPredicate<int>
     {
         private readonly PredicateDigit predicate;
 

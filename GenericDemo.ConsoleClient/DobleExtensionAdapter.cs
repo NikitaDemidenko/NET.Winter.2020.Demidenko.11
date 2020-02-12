@@ -6,7 +6,7 @@ using DoubleManipulation;
 
 namespace GenericDemo.ConsoleClient
 {
-    public class DobleExtensionAdapter : ITransformer
+    public class DobleExtensionAdapter : ITransformer<double, string>
     {
         public string Transform(double value)
         {

@@ -20,4 +20,10 @@
       <ProjectReference Include="..\NumberExtension\NumberExtension.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="NumbersExtensions">
+        <HintPath>..\..\NET.Winter.2020.Demidenko.05\NumbersExtension\bin\Debug\netcoreapp3.1\NumbersExtensions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
